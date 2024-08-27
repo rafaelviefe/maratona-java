@@ -4,6 +4,8 @@ public class Funcionario {
     public String nome;
     public int idade;
     public double[] salario;
+    private double media;
+
 
     public void imprimeDados(){
         System.out.println(this.nome);
@@ -16,7 +18,7 @@ public class Funcionario {
     }
 
     public void mediaSalarial(){
-        double media = 0;
+        media = 0;
         if (salario != null) {
             for (double num: this.salario) {
                 media += num;

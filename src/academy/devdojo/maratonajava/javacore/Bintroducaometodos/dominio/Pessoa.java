@@ -5,8 +5,8 @@ public class Pessoa {
     private int idade;
 
     public void imprime() {
-        System.out.println(this.nome);
-        System.out.println(this.idade);
+        System.out.println(this.getNome());
+        System.out.println(this.getIdade());
     }
 
     public void setNome(String nome) {
@@ -25,7 +25,7 @@ public class Pessoa {
         return this.nome;
     }
 
-    public int getIdade () {
+    public int getIdade() {
         return this.idade;
     }
 }
