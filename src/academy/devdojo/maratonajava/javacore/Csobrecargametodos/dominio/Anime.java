@@ -37,6 +37,7 @@ public class Anime {
         return this.nome;
     }
 
+
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
