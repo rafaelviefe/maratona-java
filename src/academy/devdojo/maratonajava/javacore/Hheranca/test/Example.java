@@ -6,6 +6,7 @@ public class Example {
         int[] numbers = { 10, 20, 30, 40, 50 };
         int sum = calculateSum(numbers);
         System.out.println("Soma dos números: " + sum);
+
     }
 
     public static int calculateSum(int[] numbers) {
